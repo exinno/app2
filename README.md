@@ -27,15 +27,15 @@ For more information, see [Introduction](/docs/introduction.md), [Introduction(í
 
 To get started, clone the repository and install the necessary dependencies. You'll need Node.js and npm installed on your machine to do this.
 
-1. Install Redis and Postgres.
-2. Clone the App2 GitHub repository(https://github.com/exinno/app2) to your local machine.
+1. Pre-install Node.js(v18.x+), Yarn, Redis and Postgres. Only Windows(7+) is supported yet.
+2. Clone the App2 repository(https://github.com/exinno/app2) to your local machine.
 3. Set the Redis and Postgres connection information in the app2.env file.
 4. Run yarn install in the root directory of the repository.
 5. Run yarn start to start the container app.
 6. Open the container app's UI http://localhost:3000 in your browser.
 7. Create a new app through the container app's UI. The newly created app is placed in the apps directory.
-8. Manage the source code of your app separately by configuring a git repository.
-9. You can manage your app through the container or run it by itself in the CLI with the command yarn start app.
+8. Manage the source code of your new app separately by configuring a git repository.
+9. You can manage your app through the container or run it by itself in the CLI with the command yarn start appName.
 
 For more information, see [Quick start](/docs/quick-start.md).
 
