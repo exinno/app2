@@ -1,0 +1,6 @@
+id,name,displayName,groupType
+any,any,Any,dynamic
+admin,admin,Admin,group
+owner,owner,Owner,dynamic
+group,group,Group,dynamic
+authenticated,authenticated,Authenticated,dynamic

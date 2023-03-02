@@ -1,0 +1,13 @@
+{
+  "name": "app2-dbgate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node start 23001 .dbgate"
+  },
+  "dependencies": {
+    "dbgate-serve": "^5.1.5",
+    "dbgate-plugin-sqlite": "^5.1.5"
+  }
+}

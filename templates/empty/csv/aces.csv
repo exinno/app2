@@ -1,0 +1,5 @@
+id,acl,principal,priority,permissions
+1,private,owner,1,"[""any""]"
+2,authenticated,authenticated,1,"[""any""]"
+3,public,any,1,"[""any""]"
+4,admin,admin,1,"[""any""]"

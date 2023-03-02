@@ -1,0 +1,114 @@
+{
+  "name": "app2-common",
+  "version": "0.0.1",
+  "description": "app2 common library",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./typedoc.json": {
+      "import": "./src/typedoc.json",
+      "require": "./dist/typedoc.json",
+      "types": "./dist/typedoc.json"
+    },
+    "./common/*": {
+      "import": "./src/common/*.ts",
+      "require": "./dist/common/*.js",
+      "types": "./dist/common/*.d.ts"
+    },
+    "./model": {
+      "import": "./src/model/index.ts",
+      "require": "./dist/model/index.js",
+      "types": "./dist/model/index.d.ts"
+    },
+    "./model/*": {
+      "import": "./src/model/*.ts",
+      "require": "./dist/model/*.js",
+      "types": "./dist/model/*.d.ts"
+    },
+    "./data/*": {
+      "import": "./src/data/*.ts",
+      "require": "./dist/data/*.js",
+      "types": "./dist/data/*.d.ts"
+    },
+    "./ui/*": {
+      "import": "./src/ui/*.ts",
+      "require": "./dist/ui/*.js",
+      "types": "./dist/ui/*.d.ts"
+    },
+    "./auth/*": {
+      "import": "./src/auth/*.ts",
+      "require": "./dist/auth/*.js",
+      "types": "./dist/auth/*.d.ts"
+    },
+    "./builtin": {
+      "import": "./src/builtin/index.ts",
+      "require": "./dist/builtin/index.js",
+      "types": "./dist/builtin/index.d.ts"
+    },
+    "./server": {
+      "import": "./src/server/index.ts",
+      "require": "./dist/server/index.js",
+      "types": "./dist/server/index.d.ts"
+    }
+  },
+  "scripts": {
+    "prestart": "yarn build",
+    "start": "chokidar \"src/**/*.ts\" -c \"yarn build\"",
+    "dts-bundle": "dts-bundle-generator ./src/index.ts -o ../server/static/app2.d.ts --no-check",
+    "build": "tsc -p tsconfig.json",
+    "postbuild": "yarn doc:json && copyfiles -u 1 ./src/typedoc.json ./dist",
+    "fix": "run-s fix:*",
+    "fix:prettier": "prettier \"src/**/*.ts\" --write",
+    "fix:lint": "eslint src --ext .ts --fix",
+    "test": "run-s build test:*",
+    "test:lint": "eslint src --ext .ts",
+    "test:prettier": "prettier \"src/**/*.ts\" --list-different",
+    "doc:html": "typedoc src/ --out ../server/static/docs",
+    "doc:json": "typedoc src/ --excludeNotDocumented --json ./src/typedoc.json",
+    "clean": "rimraf dist node_modules tsconfig.tsbuildinfo",
+    "postinstall": "yarn link"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "callsite": "^1.0.0",
+    "countries-list": "^2.6.1",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.5",
+    "detect-browser": "^5.3.0",
+    "fast-csv": "^4.3.6",
+    "fs-extra": "^10.1.0",
+    "knex": "^2.4.0",
+    "lodash": "^4.17.21",
+    "nanoid": "^3.3.4",
+    "prettier": "^2.7.1",
+    "qs": "^6.10.5",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/crypto-js": "^4.1.1",
+    "@types/fs-extra": "^11.0.1",
+    "@types/lodash": "^4.14.181",
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "chokidar-cli": "^3.0.0",
+    "copyfiles": "^2.4.1",
+    "dts-bundle-generator": "^6.0.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "ts-node": "^9.0.0",
+    "typedoc": "^0.23.17",
+    "typescript": "^4.9.4"
+  }
+}

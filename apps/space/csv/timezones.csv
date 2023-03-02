@@ -1,0 +1,48 @@
+abbreviation,name,offset
+MIT,Midway Islands Time,-39600
+MIT,Hawaii Standard Time,-36000
+AKST,Alaska Standard Time,-32400
+AKDT,Alaska Daylight Savings Time,-28800
+PST,Pacific Standard Time,-28800
+PDT,Pacific Daylight Savings Time,-25200
+MST,Mountain Standard Time,-25200
+MDT,Mountain Daylight Savings Time,-21600
+CST,Central Standard Time,-21600
+CDT,Central Daylight Savings Time,-18000
+EST,Eastern Standard Time,-18000
+EDT,Eastern Daylight Savings Time,-14400
+PRT,Puerto Rico and US Virgin Islands Time,-14400
+CNT,Canada Newfoundland Time,-12600
+AGT,Argentina Standard Time,-10800
+BET,Brazil Standard Time,-10800
+CAT,Central Africa Time,-3600
+WET,Western European Time,0
+GMT,Greenwich Mean Time,0
+UTC,Universal Coordinated Time,0
+BST,British Summer Time,3600
+WEST,Western European Summer Time,3600
+CET,Central European Time,3600
+CEST,Central European Summer Time,7200
+EET,Eastern European Time,7200
+EEST,Eastern European Summer Time,10800
+ATT,(Arabic) Egypt Time,7200
+EAT,Eastern Africa Time,10800
+MET,Middle East Time,12600
+NET,Near East Time,14400
+PLT,Pakistan Lahore Time,18000
+IST,India Standard Time,19800
+BST,Bangladesh Standard Time,21600
+CTT,China Taiwan Time,28800
+HKT,Hong Kong Standard Time,28800
+CST,China Standard Time,28800
+MST,Malaysia Standard Time,28800
+SST,Singapore Standard Time,28800
+AWST,Australia Western Time,28800
+JST,Japan Standard Time,32400
+KST,Korea Standard Time,32400
+ACST,Australian Central Time,34200
+AEST,Australian Eastern Time,36000
+AEDT,Australian Eastern Daylight Time,39600
+SST,Solomon Standard Time,39600
+NZST,New Zealand Standard Time,43200
+NZDT,New Zealand Daylight Savings Time,46800

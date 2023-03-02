@@ -1,0 +1,18 @@
+import { ConfigModel } from 'app2-common';
+
+const config: ConfigModel = {
+  title: '${title}',
+  icon: '${icon}',
+  description: '${description}',
+  version: '1.0',
+  port: ${port},
+  plugins: ['ej2', 'monaco-editor', 'tiptap'],
+  locales: ['ko', 'en', 'zh', 'ja'],
+  defaultAcl: 'ownerAny',
+  indexRedirect: '/home',
+  redisUrl: process.env.APP2_REDIS,
+  redisPassword: 'Wkwkd369',
+  userMenuActions: ['openSignIn', 'openProfile', 'changePassword', 'changeLanguage', 'signOut']
+};
+
+export default config;

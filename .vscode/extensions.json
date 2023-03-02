@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "vue.volar",
+    "wayou.vscode-todo-highlight",
+    "vue.vscode-typescript-vue-plugin",
+    "dbaeumer.vscode-eslint",
+    "rvest.vs-code-prettier-eslint",
+    "eamodio.gitlens",
+    "ms-vsliveshare.vsliveshare",
+    "hancel.google-translate",
+    "donjayamanne.githistory",
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments",
+    "formulahendry.auto-rename-tag",
+    "kisstkondoros.vscode-codemetrics",
+    "lukas-tr.materialdesignicons-intellisense",
+    "christian-kohler.npm-intellisense",
+    "zaaack.markdown-editor",
+    "yzhang.markdown-all-in-one",
+    "github.copilot-nightly",
+    "github.copilot-labs",
+    "stepsize.stepsize"
+  ],
+  "unwantedRecommendations": ["octref.vetur"]
+}

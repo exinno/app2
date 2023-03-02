@@ -1,0 +1,10 @@
+name,owner
+adminAny,admin
+ownerAny,admin
+groupRead,admin
+groupAny,admin
+authRead,admin
+authAny,admin
+anyRead,admin
+anyAny,admin
+groupReadOnly,admin

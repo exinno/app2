@@ -1,0 +1,54 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Current TS File",
+      "type": "node",
+      "request": "launch",
+      "args": ["${relativeFile}"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}/server"
+    },
+    {
+      "name": "server-start",
+      "type": "node",
+      "request": "launch",
+      "args": ["./src/main.ts"],
+      "runtimeExecutable": "ts-node",
+      "runtimeArgs": ["-r", "tsconfig-paths/register", "--project", "tsconfig-dev.json"],
+      "outputCapture": "std",
+      "cwd": "${workspaceFolder}/server",
+      "env": { "APP2_ENV": "devepopment" }
+    },
+    {
+      "name": "web-dev",
+      "request": "launch",
+      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "npm",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "cwd": "${workspaceFolder}/web"
+    },
+    {
+      "name": "theia",
+      "request": "launch",
+      "runtimeArgs": ["start"],
+      "runtimeExecutable": "npm",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node",
+      "cwd": "${workspaceFolder}/theia"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "web-chrome",
+      "url": "http://localhost:9000",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMapPathOverrides": {
+        "webpack://package-name/./src/*": "${webRoot}/*"
+      },
+      "cwd": "${workspaceFolder}/web"
+    }
+  ]
+}
