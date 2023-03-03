@@ -11,7 +11,7 @@ export default defineConfig({
       exposes: {
         './components': './web/components.vue'
       },
-      shared: ['vue']
+      shared: ['vue', 'app2-common']
     })
   ],
   build: {

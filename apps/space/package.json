@@ -1,10 +1,9 @@
 {
-  "name": "space",
+  "name": "app2-apps-space",
   "version": "0.0.1",
   "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "author": "ExInno Co.,Ltd. (https://www.exinno.net)",
+  "license": "MIT",
   "scripts": {
     "postinstall": "yarn link app2-common"
   },
