@@ -21,7 +21,7 @@ const hostname = os.hostname();
 
 @Injectable()
 export class ContainerService implements OnModuleInit {
-  private dataService;
+  private dataService: DataService;
 
   onModuleInit() {
     this.dataService = registry.dataService;
