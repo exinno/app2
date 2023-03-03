@@ -12,7 +12,7 @@
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^9.2.1",
-    "app2-common": "../../common",
+    "app2-common": "*",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {

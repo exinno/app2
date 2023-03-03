@@ -12,7 +12,7 @@
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^9.2.1",
-    "app2-common": "../../common",
+    "app2-common": "*",
     "@type-cacheable/core": "^11.0.1",
     "express": "^4.18.2",
     "http-proxy": "^1.18.1",

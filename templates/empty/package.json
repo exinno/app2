@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {},
   "dependencies": {
-    "app2-common": "/Project/app2/common"
+    "app2-common": "*"
   },
   "devDependencies": {
     "@types/node": "^16.0.0",

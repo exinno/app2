@@ -11,7 +11,7 @@
   "dependencies": {
     "@nestjs/common": "^9.2.1",
     "@nestjs/platform-express": "^9.2.1",
-    "app2-common": "/Project/app2/common",
+    "app2-common": "*",
     "busboy": "^1.6.0",
     "fs-extra": "^11.1.0",
     "peerjs": "^1.4.7",
