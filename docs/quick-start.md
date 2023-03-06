@@ -4,8 +4,6 @@ Although App2 plans to support SaaS, Docker, and multi-cloud deployment in the f
 
 ## Pre-requirements
 
----
-
 Before you start using App2, make sure you have the following pre-requirements:
 
 - Operating System: Windows 10 or Ubuntu 18.04 LTS
@@ -16,8 +14,6 @@ Before you start using App2, make sure you have the following pre-requirements:
 
 ## Installation
 
----
-
 To install App2, follow these steps:
 
 1. Clone the App2 repository from GitHub: `git clone https://github.com/app2/app2.git`.
@@ -27,8 +23,6 @@ To install App2, follow these steps:
 5. Start the server: `npm  run start` or `yarn start`.
 
 ## Database Configuration
-
----
 
 Once you have installed App2, you need to configure database before you can start building your app.
 
@@ -50,8 +44,6 @@ APP2_REDIS=redis://username:password@host:port/database
 
 ## Building App
 
----
-
 To build your first App2 application, follow these steps:
 
 1. After completing all settings, go to http://localhost:3000 in your web browser.
@@ -66,6 +58,11 @@ To build your first App2 application, follow these steps:
 1. Click on "AI Model Studio".
 2. Type in a specific description of what you want your application to do using natural language.
 3. Click on "Create" to generate an AI-powered view.
+
+### Create view with Designer
+
+1. Click on "Design new view".
+2. In designer, users can choose to make view with pro-code or low-code.
 
 ### Create view from Excel
 
@@ -102,8 +99,6 @@ To build your first App2 application, follow these steps:
 Congratulations, you have now created your first App2 application!
 
 ## Managing Apps
-
----
 
 You can manage your app through the container or run it by itself in the CLI with the command yarn start appName.
 
