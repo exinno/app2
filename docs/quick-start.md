@@ -121,3 +121,14 @@ You can manage your app through the container or run it by itself in the CLI wit
 2. Open a web browser and navigate to http://localhost:3000.
 3. Login to the app using your credentials.
 4. You will be able to see that you have successfully logged in to the app you created.
+
+## Create new app
+
+1. Navigate to the "My Apps" section in the menu bar.
+   <br><img src="../static/image/createApps.png" alt="createApps" width="30%" height="10%"><br>
+2. Click the "ADD" button in the action bar.
+3. Fill in the details about the app. Note that configurations can also be set in this part.  
+   <br><img src="../static/image/createAppsDetail.png" alt="createAppsDetail" width="30%" height="10%"><br>
+4. Click on "OK" create the app.
+5. To run your newly created app, simply select the app name and click the "START APP" button; to open the app in a new window, click the "OPEN APP" button.
+   <br><img src="../static/image/createApps.png" alt="createApps" width="30%" height="10%"><br>
