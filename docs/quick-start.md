@@ -36,11 +36,11 @@ APP2_REDIS=redis://username:password@host:port/database
 ```
 
 3. Navigate to the "container" folder in the "apps" directory.
-   <br><img src="../static/image/containerFolder.png" alt="createView" width="30%" height="10%"><br>
+   <br><img src="../static/image/containerFolder.png" alt="containerFolder" width="30%" height="10%"><br>
 
 4. Open the config.ts file in VSCode and make any necessary changes to the settings. <br>[For more information about config setting click ](../static/docs/classes/ConfigModel.html).</br>
    Alternatively, you can also make settings changes in the browser using the App Designer in the menu bar. Simply click on "config" to access the configuration settings.
-   <br><img src="../static/image/AppDesignerConfig.png" alt="createView" width="30%" height="10%"><br>
+   <br><img src="../static/image/AppDesignerConfig.png" alt="appDesigner" width="30%" height="10%"><br>
 
 ## Building App
 
@@ -69,7 +69,10 @@ To build your first App2 application, follow these steps:
 1. Click on "Create view from excel".
 2. Select the Excel file you want to import.
 3. Once the file is selected, a "Create New View" modal will appear. Fill in all required fields and click "OK".
-4. A table will appear in the modal. Select the columns you want to include, choose the key column, and modify fields as necessary.
+4. A table will appear in the modal. Select the columns you want to include, choose the key column, and edit fields as necessary.
+5. Automatically, data types for all fields will be assigned based on their values in Excel. If any editing is necessary, simply click on the "Edit" button for the desired field.
+   <br><img src="../static/image/createViewWithExcel.png" alt="ViewWithExcel" width="30%" height="10%"><br>
+   <br><img src="../static/image/editField.png" alt="ViewWithExcel" width="30%" height="10%"><br>
 
 ### Create view from pasting table
 
@@ -77,7 +80,10 @@ To build your first App2 application, follow these steps:
 2. Copy the table data from Excel by selecting the cells and pressing Ctrl + C.
 3. Click on the "Paste" button or press Ctrl + V to paste the data.
 4. A "Create New View" modal will appear. Fill in all required fields and click "OK".
-5. A table will appear in the modal. Select the columns you want to include, choose the key column, and modify fields as necessary.
+5. A table will appear in the modal. Select the columns you want to include, choose the key column, and edit fields as necessary.
+6. All fields will be assigned the data type of string. If any editing is necessary, simply click on the "Edit" button for the desired field.
+   <br><img src="../static/image/createViewWithExcel.png" alt="ViewWithExcel" width="30%" height="10%"><br>
+   <br><img src="../static/image/editField.png" alt="ViewWithExcel" width="30%" height="10%"><br>
 
 ### Create blank view
 
@@ -111,7 +117,7 @@ You can manage your app through the container or run it by itself in the CLI wit
 
 ### App management through CLI
 
-1. Start the app by running the command `yarn start <app name>` in app2 directory.
+1. Start the app by running the command `yarn start <app name>` in app2 directory. If you don't specify the app name, the container app will be started instead.
 2. Open a web browser and navigate to http://localhost:3000.
 3. Login to the app using your credentials.
 4. You will be able to see that you have successfully logged in to the app you created.
