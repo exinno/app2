@@ -55,7 +55,7 @@ To build your first App2 application, follow these steps:
    configuration, you may be prompted for additional verification.
 3. Once you have registered, log in and begin building your app.
 4. Once logged in click the 'Create View' button to start building view
-   <br><img src="[../static/image/createView.png](https://user-images.githubusercontent.com/126759216/223354667-3f2f9f05-c395-4173-ae39-a7dbd9821ddb.png)" alt="createView" width="30%" height="10%"><br>
+   <br><img src="https://user-images.githubusercontent.com/126759216/223354667-3f2f9f05-c395-4173-ae39-a7dbd9821ddb.png" alt="createView" width="30%" height="10%"><br>
    
 
 
