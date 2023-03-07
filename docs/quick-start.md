@@ -37,6 +37,8 @@ APP2_REDIS=redis://username:password@host:port/database
 
 3. Navigate to the "container" folder in the "apps" directory.
    <br><img src="../static/image/containerFolder.png" alt="containerFolder" width="30%" height="10%"><br>
+   ![containerFolder](https://user-images.githubusercontent.com/126759216/223353701-536d53e6-b225-4e8e-8e7a-b8768844fe16.png)
+
 
 4. Open the config.ts file in VSCode and make any necessary changes to the settings. <br>[For more information about config setting click ](../static/docs/classes/ConfigModel.html).</br>
    Alternatively, you can also make settings changes in the browser using the App Designer in the menu bar. Simply click on "config" to access the configuration settings.
