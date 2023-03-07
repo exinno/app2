@@ -1,5 +1,4 @@
-import { MenuItem } from '../model';
-import { View, Field } from '../model/model.decorator';
+import { MenuItem, View, Field } from 'index';
 
 @View({
   name: 'bookmarks',

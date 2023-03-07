@@ -1,5 +1,5 @@
 import { FieldModel, Field, dictPropField, View } from '..';
-import { Dict } from '../..';
+import { Dict } from 'index';
 
 const fitModes = ['cover', 'fill', 'contain', 'none', 'scale-down'] as const;
 const crossOriginModes = ['use-credentials', 'anonymous'] as const;

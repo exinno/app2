@@ -1,6 +1,7 @@
-import { DataGridViewModel, asSingle, asArray, Group, ListViewModel, FormViewModel, File, constants } from '../../../';
+import { DataGridViewModel, asSingle, asArray, Group, ListViewModel, FormViewModel, constants } from 'index';
 
 import { ChatRoom } from './chat';
+import { File } from './files';
 
 export const spaces: DataGridViewModel = {
   parent: 'spaceBase',

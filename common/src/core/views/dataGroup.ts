@@ -1,4 +1,4 @@
-import { DataGridViewModel, FormViewModel } from '../../../';
+import { DataGridViewModel, FormViewModel } from 'index';
 
 export const dataGroup: FormViewModel = {
   type: 'FormView',

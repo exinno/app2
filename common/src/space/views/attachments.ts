@@ -1,4 +1,4 @@
-import { View, Field, Editable, ViewFieldModel } from '../../../';
+import { View, Field, Editable, ViewFieldModel } from 'index';
 
 @View({
   name: 'attachments',

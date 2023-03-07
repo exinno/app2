@@ -9,10 +9,10 @@ import {
   asArray,
   AttachmentViewService,
   FileViewModel,
-  PropOptions
-} from '../';
-import { File } from '../builtin/core/views/files';
-import { constants } from '../';
+  PropOptions,
+  constants
+} from 'index';
+import { File } from '../views/files';
 
 type UploadingFile = {
   name: string;

@@ -1,4 +1,4 @@
-import { PivotViewModel } from '../../../';
+import { PivotViewModel } from 'index';
 
 export const activityReport: PivotViewModel = {
   type: 'PivotView',

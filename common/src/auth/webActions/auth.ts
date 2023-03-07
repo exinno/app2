@@ -1,4 +1,4 @@
-import { WebActionModel } from '../../..';
+import { WebActionModel } from 'index';
 
 export const openSignIn: WebActionModel = {
   label: 'Sign in',

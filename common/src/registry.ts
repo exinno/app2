@@ -6,8 +6,9 @@ import _ from 'lodash';
 import { AclService, AuthService } from './auth';
 import { MessagingService } from './messaging';
 import { DataService, Dict, EncryptionService } from './data';
-import { ConfigModel, MessageService, ModelService, StorageClient, ViewService } from './model';
+import { ConfigModel, MessageService, ModelService, ViewService } from './model';
 import { BookmarkService, NavigationService, RouteLocation, UiService } from './ui';
+import { StorageClient } from 'space';
 
 const envInfo = detect();
 
@@ -144,8 +145,11 @@ export const registry = new Proxy(new Registry(), {
 });
 
 declare global {
+  // eslint-disable-next-line no-var
   var $registry: Registry;
+  // eslint-disable-next-line no-var
   var $mainView: ViewService;
+  // eslint-disable-next-line no-var
   var $execute: (...args: any[]) => any;
 }
 

@@ -1,7 +1,7 @@
-import { asArray } from '../common';
-import { Editable } from '../data';
-import { ListViewModel, TabViewModel } from '../model';
-import { Field, View } from '../model/model.decorator';
+import { asArray } from 'index';
+import { Editable } from 'index';
+import { ListViewModel, TabViewModel } from 'index';
+import { Field, View } from 'index';
 
 @View({
   name: 'principals',

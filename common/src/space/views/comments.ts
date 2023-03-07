@@ -1,4 +1,4 @@
-import { CommentViewModel } from '../../../';
+import { CommentViewModel } from 'index';
 
 export const comments: CommentViewModel = {
   type: 'CommentView',

@@ -5,7 +5,7 @@ import {
   DataViewService,
   SplitViewModel,
   ViewModel
-} from '../../../';
+} from 'index';
 
 export const viewDesigner: SplitViewModel = {
   type: 'SplitView',

@@ -19,4 +19,3 @@ export * from './message.service';
 export * from './fields';
 export * from './views';
 export * from './predefined.fields';
-export * from './storage.client';

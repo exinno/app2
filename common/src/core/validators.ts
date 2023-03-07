@@ -1,4 +1,4 @@
-import { ValidatorModel } from '../..';
+import { ValidatorModel } from 'index';
 
 const list: Array<ValidatorModel> = [
   {

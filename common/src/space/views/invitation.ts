@@ -1,4 +1,4 @@
-import { FormViewModel, GroupMember } from '../../..';
+import { FormViewModel, GroupMember } from 'index';
 
 export const invitation: FormViewModel = {
   type: 'FormView',
@@ -57,7 +57,6 @@ export const invitation: FormViewModel = {
       validators: ['email'],
       required: true,
       cols: 12
-      
     },
     { name: 'token', type: 'StringField' },
     { name: 'spaceId', type: 'StringField' }

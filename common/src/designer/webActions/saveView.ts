@@ -1,4 +1,4 @@
-import { DataViewModel, FormViewModel, ViewModel, WebActionModel } from '../../../';
+import { DataViewModel, FormViewModel, ViewModel, WebActionModel } from 'index';
 
 export const saveViewAs: WebActionModel = {
   icon: 'mdi-content-copy',

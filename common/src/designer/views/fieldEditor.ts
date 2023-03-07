@@ -1,4 +1,4 @@
-import { FormViewModel } from '../../../model';
+import { FormViewModel } from 'index';
 
 export const fieldEditor: FormViewModel = {
   type: 'FormView',

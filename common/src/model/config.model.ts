@@ -1,5 +1,4 @@
-import { LanguageCode, languageCodes, PropOptions, voidPropField } from '.';
-import { MessagingChannel } from '../messaging/messaging.service';
+import { LanguageCode, languageCodes, PropOptions, voidPropField, MessagingChannel } from 'index';
 import { Field, View } from './model.decorator';
 
 export const plugins = ['ej2', 'monaco-editor', 'tiptap', 'ag-grid', 'uppy'];

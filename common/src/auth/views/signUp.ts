@@ -1,4 +1,4 @@
-import { Dict, FormViewModel, MessagingChannel, OccamError } from '../../../';
+import { Dict, FormViewModel, MessagingChannel } from 'index';
 
 export const signUp: FormViewModel = {
   type: 'FormView',

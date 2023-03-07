@@ -1,4 +1,4 @@
-import { LogViewModel } from '../../../';
+import { LogViewModel } from 'index';
 
 export const logs: LogViewModel = {
   type: 'LogView',

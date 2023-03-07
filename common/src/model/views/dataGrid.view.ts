@@ -1,4 +1,4 @@
-import { DataViewService, Dict } from '../..';
+import { DataViewService, Dict } from 'index';
 import { dictPropField, fieldsSelectField, OpenViewModel, PropOptions, WebActionModel } from '..';
 import { Field, View } from '../model.decorator';
 import { DataViewModel } from './data.view';

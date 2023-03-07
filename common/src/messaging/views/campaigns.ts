@@ -1,4 +1,4 @@
-import { DataGridViewModel, TabViewModel } from '../../../';
+import { DataGridViewModel, TabViewModel } from 'index';
 
 export const campaigns: DataGridViewModel = {
   type: 'DataGridView',

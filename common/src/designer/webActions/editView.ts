@@ -1,4 +1,4 @@
-import { WebActionModel } from '../../../model';
+import { WebActionModel } from 'index';
 
 export const designView: WebActionModel = {
   icon: 'mdi-pencil-ruler',

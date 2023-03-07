@@ -1,4 +1,4 @@
-import { FormViewModel } from '../../../';
+import { FormViewModel } from 'index';
 
 export const reSendVerificationCode: FormViewModel = {
   type: 'FormView',

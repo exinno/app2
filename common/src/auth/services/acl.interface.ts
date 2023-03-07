@@ -1,4 +1,4 @@
-import { Permission, DataOptions } from '..';
+import { Permission, DataOptions } from 'index';
 
 export interface AclService {
   hasPermission(permission: Permission, options: DataOptions): Promise<boolean>;

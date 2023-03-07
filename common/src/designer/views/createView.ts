@@ -1,4 +1,4 @@
-import { CustomViewModel, FormViewModel } from '../../../';
+import { CustomViewModel, FormViewModel } from 'index';
 
 export const createNewView: FormViewModel = {
   label: 'Create new view',

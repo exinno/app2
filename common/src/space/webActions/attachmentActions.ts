@@ -1,4 +1,4 @@
-import { AttachmentViewModel, AttachmentViewService, WebActionModel } from '../../..';
+import { AttachmentViewModel, AttachmentViewService, WebActionModel } from 'index';
 
 export const attach: WebActionModel<AttachmentViewService, AttachmentViewModel> = {
   label: 'Attach',

@@ -1,4 +1,4 @@
-import { Filter, Select } from '../..';
+import { Filter, Select } from 'index';
 import { DataViewModel, Field, FieldModel, PropOptions, RelationField, View } from '..';
 
 /** A field to find and link the data of the related view */

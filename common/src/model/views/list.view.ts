@@ -1,5 +1,5 @@
 import { Field, View, dictPropField, PropOptions } from '..';
-import { Dict } from '../..';
+import { Dict } from 'index';
 import { DataViewModel } from './data.view';
 
 /** List view model */

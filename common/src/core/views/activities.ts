@@ -1,4 +1,4 @@
-import { DataGridViewModel, ListViewModel, TimelineViewModel } from '../../../';
+import { DataGridViewModel, ListViewModel, TimelineViewModel } from 'index';
 
 export const activities: DataGridViewModel = {
   type: 'DataGridView',

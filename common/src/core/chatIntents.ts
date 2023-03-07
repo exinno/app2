@@ -1,4 +1,4 @@
-import { ChatIntentModel } from '../..';
+import { ChatIntentModel } from 'index';
 
 // chatbotService
 /*

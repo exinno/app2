@@ -1,4 +1,4 @@
-import { Dict, Filter, Join, OrderBy, Select, UndoService, Serializer, Permission } from '../..';
+import { Dict, Filter, Join, OrderBy, Select, UndoService, Serializer, Permission } from 'index';
 import { SubscriptionLike } from 'rxjs';
 import {
   asyncPropField,
