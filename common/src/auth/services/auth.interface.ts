@@ -1,5 +1,5 @@
-import { Context, Dict } from 'index';
-import { MessagingChannel } from 'index';
+import { Context, Dict } from '../..';
+import { MessagingChannel } from '../..';
 import { User } from '../views/principals';
 
 export const userKeyFields = ['key', 'username', 'email', 'phoneNumber', 'token'] as const;

@@ -1,4 +1,4 @@
-import { DataWebActionModel, LookupFieldModel } from 'index';
+import { DataWebActionModel, LookupFieldModel } from '../..';
 
 export const openAdd: DataWebActionModel = {
   label: 'Add',

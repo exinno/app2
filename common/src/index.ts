@@ -4,6 +4,7 @@ export * from './model';
 export * from './registry';
 export * from './data';
 export * from './ui';
+export * from './core';
 export * from './messaging';
 export * from './notification';
 export * from './server/server.interface';

@@ -1,4 +1,4 @@
-import { DataGridViewModel } from 'index';
+import { DataGridViewModel } from '../..';
 
 export const templates: DataGridViewModel = {
   type: 'DataGridView',

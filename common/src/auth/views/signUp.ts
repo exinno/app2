@@ -1,4 +1,4 @@
-import { Dict, FormViewModel, MessagingChannel } from 'index';
+import { Dict, FormViewModel, MessagingChannel } from '../..';
 
 export const signUp: FormViewModel = {
   type: 'FormView',

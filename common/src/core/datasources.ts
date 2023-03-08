@@ -1,4 +1,4 @@
-import { DatasourceModel } from 'index';
+import { DatasourceModel } from '..';
 
 const list: Array<DatasourceModel> = [
   {

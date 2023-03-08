@@ -1,4 +1,4 @@
-import { Dict } from 'index';
+import { Dict } from '../..';
 import { Field, PropOptions, View, voidPropField, stringPropField } from '..';
 import { DataViewModel } from './data.view';
 

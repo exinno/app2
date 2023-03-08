@@ -1,4 +1,4 @@
-import { MenuItem, View, Field } from 'index';
+import { MenuItem, View, Field } from '../..';
 
 @View({
   name: 'bookmarks',

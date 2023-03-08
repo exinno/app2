@@ -1,4 +1,4 @@
-import { WebActionModel } from 'index';
+import { WebActionModel } from '../..';
 
 export const newView: WebActionModel = {
   dropdownIcon: 'mdi-view-grid-plus',

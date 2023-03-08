@@ -1,4 +1,4 @@
-import { ChoiceModel } from 'index';
+import { ChoiceModel } from '..';
 
 const list: Array<ChoiceModel> = [
   {

@@ -1,4 +1,4 @@
-import { Dict } from 'index';
+import { Dict } from '../..';
 import { dictsPropField, fieldsSelectField, PropFieldModel, PropOptions } from '..';
 import { Field, View } from '../model.decorator';
 import { DataViewModel } from './data.view';

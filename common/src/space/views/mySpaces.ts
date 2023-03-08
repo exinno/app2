@@ -1,4 +1,4 @@
-import { TabViewModel, TimelineViewModel, GroupMember, DataGridViewModel } from 'index';
+import { TabViewModel, TimelineViewModel, GroupMember, DataGridViewModel } from '../..';
 
 export const mySpaces: TabViewModel = {
   type: 'TabView',

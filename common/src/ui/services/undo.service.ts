@@ -1,4 +1,4 @@
-import { DataViewService } from 'index';
+import { DataViewService } from '../..';
 import _ from 'lodash';
 
 export class UndoService {

@@ -11,7 +11,7 @@ import {
   OpenViewModel,
   NavigationModel,
   RouteParams
-} from 'index';
+} from '../..';
 
 export type ComponentType = 'View' | 'Field' | 'Layout' | 'Wrapper';
 

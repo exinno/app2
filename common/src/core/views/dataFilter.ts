@@ -1,4 +1,4 @@
-import { DataGridService, DataGridViewModel } from 'index';
+import { DataGridService, DataGridViewModel } from '../..';
 
 export const dataFilter: DataGridViewModel = {
   label: 'Filter',

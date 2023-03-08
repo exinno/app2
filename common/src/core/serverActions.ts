@@ -1,4 +1,4 @@
-import { ServerActionModel } from 'index';
+import { ServerActionModel } from '..';
 
 const list: Array<ServerActionModel> = [
   {

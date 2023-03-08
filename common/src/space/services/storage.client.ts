@@ -11,7 +11,7 @@ import {
   FileViewModel,
   PropOptions,
   constants
-} from 'index';
+} from '../..';
 import { File } from '../views/files';
 
 type UploadingFile = {

@@ -1,5 +1,5 @@
-import { Dict } from 'index';
-import { ModelService } from 'index';
+import { Dict } from '../..';
+import { ModelService } from '../..';
 
 export interface SendOptions {
   campaign?: string;

@@ -8,7 +8,7 @@ import { MessagingService } from './messaging';
 import { DataService, Dict, EncryptionService } from './data';
 import { ConfigModel, MessageService, ModelService, ViewService } from './model';
 import { BookmarkService, NavigationService, RouteLocation, UiService } from './ui';
-import { StorageClient } from 'space';
+import { StorageClient } from './space';
 
 const envInfo = detect();
 

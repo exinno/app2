@@ -1,4 +1,4 @@
-import { DataGridViewModel, DataViewModel, SaveOptions } from 'index';
+import { DataGridViewModel, DataViewModel, SaveOptions } from '../..';
 
 export const reactions: DataGridViewModel = {
   parent: 'recordable',

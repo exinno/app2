@@ -1,4 +1,4 @@
-import { FormViewModel, GroupMember } from 'index';
+import { FormViewModel, GroupMember } from '../..';
 
 export const invitation: FormViewModel = {
   type: 'FormView',

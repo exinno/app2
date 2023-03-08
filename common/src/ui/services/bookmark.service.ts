@@ -1,4 +1,4 @@
-import { registry, DataService, AuthService, ViewService, Bookmark } from 'index';
+import { registry, DataService, AuthService, ViewService, Bookmark } from '../..';
 
 export class BookmarkService {
   constructor(private dataService: DataService, private authService: AuthService) {}

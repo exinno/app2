@@ -1,5 +1,5 @@
-import { asArray, Permission, permissions, FormViewModel, Model } from 'index';
-import { Field, View } from 'index';
+import { asArray, Permission, permissions, FormViewModel, Model } from '../..';
+import { Field, View } from '../../model/model.decorator';
 
 @View({
   name: 'acls',
@@ -33,7 +33,7 @@ import { Field, View } from 'index';
   },
   optimisticLock: true,
   indexes: [{ name: 'IX_ACL_01', fields: ['objectType', 'objectId'], indexType: 'UNIQUE' }],
-  async afterSave({ registry: { aclService, common }, data }) {
+  async afterSave({ registry: { aclService }, data }) {
     for (const acl of asArray<Acl>(data)) {
       aclService.clearAcl(acl.name);
     }
@@ -84,7 +84,7 @@ export class Acl {
     relatedView: 'acls',
     label: 'Security level',
     actions: ['openLookupEdit'],
-    computed: ({ registry: { modelService, common, _ }, data }) => {
+    computed: ({ registry: { modelService, common }, data }) => {
       if (!data.objectType) return undefined;
 
       const defaultAcl = modelService.config.defaultAcl;

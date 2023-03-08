@@ -1,4 +1,4 @@
-import { DataGridViewModel, asSingle, asArray, Group, ListViewModel, FormViewModel, constants } from 'index';
+import { DataGridViewModel, asSingle, asArray, Group, ListViewModel, FormViewModel, constants } from '../..';
 
 import { ChatRoom } from './chat';
 import { File } from './files';

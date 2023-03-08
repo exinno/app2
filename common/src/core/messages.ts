@@ -1,4 +1,4 @@
-import { MessageModel } from 'index';
+import { MessageModel } from '..';
 
 const list: Array<MessageModel> = [
   {

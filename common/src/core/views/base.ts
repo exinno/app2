@@ -1,5 +1,5 @@
-import { View, Field } from '../model/model.decorator';
-import { User } from '..';
+import { View, Field } from '../../model/model.decorator';
+import { User } from '../..';
 
 @View({
   name: 'recordable',

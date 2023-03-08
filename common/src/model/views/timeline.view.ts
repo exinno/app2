@@ -1,6 +1,5 @@
-import { View } from '../model.decorator';
-import { Field } from '..';
-import { DataViewModel } from '.';
+import { View, Field } from '../model.decorator';
+import { DataViewModel } from './data.view';
 
 const timelineLayoutUnits = ['dense', 'comfortable', 'loose'] as const;
 

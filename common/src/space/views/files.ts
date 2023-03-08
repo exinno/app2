@@ -1,4 +1,4 @@
-import { View, Field, Owned, asSingle, OccamError, PageCtx } from 'index';
+import { View, Field, Owned, asSingle, OccamError, PageCtx } from '../..';
 import _ from 'lodash';
 
 @View({

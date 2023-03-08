@@ -13,20 +13,7 @@ import {
   ActionModel,
   ServerActionModel,
   WebActionModel,
-  MessageModel,
-  Recordable,
-  Editable,
-  Owned,
-  Acl,
-  Ace,
-  permission,
-  Principal,
-  User,
-  Group,
-  GroupMember,
-  groupDetail,
-  groupMemberList,
-  Bookmark
+  MessageModel
 } from '..';
 
 export {
@@ -44,18 +31,5 @@ export {
   ActionModel,
   ServerActionModel,
   WebActionModel,
-  MessageModel,
-  Recordable,
-  Editable,
-  Owned,
-  Acl,
-  Ace,
-  permission,
-  Principal,
-  User,
-  Group,
-  GroupMember,
-  groupDetail,
-  groupMemberList,
-  Bookmark
+  MessageModel
 };

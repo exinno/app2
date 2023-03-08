@@ -1,5 +1,5 @@
 import { Field, View } from '..';
-import { GridBaseViewModel } from '.';
+import { GridBaseViewModel } from './dataGrid.view';
 
 const editModes = ['Auto', 'Dialog'] as const;
 export type GanttEditMode = typeof editModes[number];

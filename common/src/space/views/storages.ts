@@ -1,4 +1,4 @@
-import { View, Field, Owned } from 'index';
+import { View, Field, Owned } from '../..';
 
 @View({
   name: 'storages',

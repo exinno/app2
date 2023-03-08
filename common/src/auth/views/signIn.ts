@@ -1,4 +1,4 @@
-import { FormViewModel } from 'index';
+import { FormViewModel } from '../..';
 
 export const signIn: FormViewModel = {
   type: 'FormView',

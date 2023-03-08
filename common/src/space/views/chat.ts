@@ -8,7 +8,7 @@ import {
   ListSectionModel,
   Group,
   GroupMember
-} from 'index';
+} from '../..';
 
 export const chatRoom: ChatViewModel = {
   type: 'ChatView',

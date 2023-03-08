@@ -1,4 +1,4 @@
-import { DataWebActionModel, SaveOptions } from 'index';
+import { DataWebActionModel, SaveOptions } from '..';
 
 const list: DataWebActionModel[] = [
   {
