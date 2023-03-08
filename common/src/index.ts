@@ -7,4 +7,5 @@ export * from './ui';
 export * from './core';
 export * from './messaging';
 export * from './notification';
+export * from './space';
 export * from './server/server.interface';

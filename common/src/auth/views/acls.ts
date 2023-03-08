@@ -1,5 +1,6 @@
-import { asArray, Permission, permissions, FormViewModel, Model } from '../..';
+import { asArray, Permission, FormViewModel, Model } from '../..';
 import { Field, View } from '../../model/model.decorator';
+import { permissions } from '../../data/data.interface';
 
 @View({
   name: 'acls',
