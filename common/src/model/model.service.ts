@@ -27,7 +27,7 @@ import {
 import _, { isArray } from 'lodash';
 import { DataOptions, Dict, FindOptions, Permission } from '../data/data.interface';
 import { registry } from '../registry';
-import { AnyFieldModel, isLookupField, LookupFieldModel } from './fields';
+import { AnyFieldModel, isLookupField, LookupFieldModel } from '.';
 
 export class ModelService {
   private appModel: AppModel;

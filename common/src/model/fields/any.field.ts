@@ -31,7 +31,7 @@ import {
   ListFieldModel,
   ViewFieldModel,
   QrScannerFieldModel
-} from './';
+} from '..';
 
 export type AnyFieldModel =
   | ActionFieldModel

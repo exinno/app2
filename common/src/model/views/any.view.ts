@@ -25,7 +25,7 @@ import {
   TimelineViewModel,
   CommentViewModel,
   AttachmentViewModel
-} from '.';
+} from '..';
 
 export type AnyViewModel =
   | ChatbotViewModel

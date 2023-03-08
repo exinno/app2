@@ -1,4 +1,4 @@
-import { fieldsSelectField, PropOptions, voidPropField, WebActionModel } from '..';
+import { fieldsSelectField, PropOptions, WebActionModel } from '..';
 import { Field, View } from '../model.decorator';
 import { DataViewModel, DataViewService } from './data.view';
 

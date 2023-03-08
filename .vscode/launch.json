@@ -11,24 +11,13 @@
       "cwd": "${workspaceRoot}/server"
     },
     {
-      "name": "server-start",
+      "name": "app2-server",
       "type": "node",
       "request": "launch",
-      "args": ["./src/main.ts"],
-      "runtimeExecutable": "ts-node",
-      "runtimeArgs": ["-r", "tsconfig-paths/register", "--project", "tsconfig-dev.json"],
+      "runtimeExecutable": "${workspaceFolder}/bin/app2-server",
       "outputCapture": "std",
-      "cwd": "${workspaceFolder}/server",
+      "cwd": "${workspaceFolder}/bin",
       "env": { "APP2_ENV": "devepopment" }
-    },
-    {
-      "name": "web-dev",
-      "request": "launch",
-      "runtimeArgs": ["run", "dev"],
-      "runtimeExecutable": "npm",
-      "skipFiles": ["<node_internals>/**"],
-      "type": "node",
-      "cwd": "${workspaceFolder}/web"
     },
     {
       "name": "theia",

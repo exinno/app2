@@ -4,7 +4,7 @@ export default function toSource(
   ignoreStartsWith?: string,
   replacer?: (a: any) => any,
   indent: false | string = '  ',
-  startingIndent: string = ''
+  startingIndent = ''
 ): string {
   const seen: any[] = [];
   return walk(object, replacer, indent === false ? '' : indent, startingIndent, seen);
