@@ -14,7 +14,7 @@ import {
   ServerActionModel,
   WebActionModel,
   MessageModel
-} from '..';
+} from '.';
 
 export {
   Model,
