@@ -26,19 +26,21 @@ To install App2, follow these steps:
 
 Once you have installed App2, you need to configure database before you can start building your app.
 
-1. Open the `app2.env` file in your project directory.
+1. Before beginning the configuration, ensure that PostgreSQL and Redis are installed and ready to use.
 
-2. Enter your PostgreSQL and Redis connection details. Make sure to put as format of connection string.
+2. Open the `app2.env` file in your project directory.
+
+3. If you have the connection details for PostgreSQL and Redis, enter them in the app2.env file using the format of a connection string. If not please refer to this [Redis](https://redis.io/docs/getting-started/) / [PostgreSql](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
 
 ```js
 APP2_PG=postgres://username:password@host:port/database
 APP2_REDIS=redis://username:password@host:port/database
 ```
 
-3. Navigate to the "container" folder in the "apps" directory.
+4. Navigate to the "container" folder in the "apps" directory.
    <br><img src="https://user-images.githubusercontent.com/126759216/223353701-536d53e6-b225-4e8e-8e7a-b8768844fe16.png" alt="containerFolder" width="30%" height="10%"><br>
 
-4. Open the config.ts file in VSCode and make any necessary changes to the settings. <br>[For more information about config setting click ](../static/docs/classes/ConfigModel.html).</br>
+5. Open the config.ts file in VSCode and make any necessary changes to the settings. <br>[Click this for more information ]().</br>
    Alternatively, you can also make settings changes in the browser using the App Designer in the menu bar. Simply click on "config" to access the configuration settings.
    <br><img src="https://user-images.githubusercontent.com/126759216/223354548-10293ba1-e879-4e56-a676-4cb13402b376.png" alt="appDesigner" width="30%" height="10%"><br>
 
@@ -72,7 +74,6 @@ To build your first App2 application, follow these steps:
 4. A table will appear in the modal. Select the columns you want to include, choose the key column, and edit fields as necessary.
 5. Automatically, data types for all fields will be assigned based on their values in Excel. If any editing is necessary, simply click on the "Edit" button for the desired field.
    <br><img src="https://user-images.githubusercontent.com/126759216/223354726-5980afa5-9bc2-4160-b007-687c90ffd5f0.png" alt="ViewWithExcel" width="30%" height="10%"><br>
-
    <br><img src="https://user-images.githubusercontent.com/126759216/223354807-30fa0465-0eab-401c-9f0f-c86f66609945.png" alt="editField" width="30%" height="10%"><br>
 
 ### Create view from pasting table
