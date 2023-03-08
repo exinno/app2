@@ -12,7 +12,6 @@ export const signIn: FormViewModel = {
     {
       type: 'StringField',
       name: 'username',
-      autofocus: true,
       label: ({
         registry: {
           config: { signInMethod }
