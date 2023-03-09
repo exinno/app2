@@ -10,13 +10,17 @@
 
 - Pre-requirements
 - Installation
-- Configuration
-- Create App with container
+- Database Configuration
 - Building App
   - Create view with AI
   - Create view from Excel
   - Create blank view
   - Add and edit fields
+- Managing Apps
+  - App management through container
+  - App management by yarn start
+- Create new app
+- App Configuration
 
 ## [Overview](overview.md)
 

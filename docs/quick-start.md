@@ -25,18 +25,15 @@ To install App2, follow these steps:
 
 Once you have installed App2, you need to configure database before you can start building your app.
 
-1. Before beginning the configuration, ensure that PostgreSQL and Redis are installed and ready to use.
-
-2. Open the `app2.env` file in your project directory.
-
-3. If you have the connection details for PostgreSQL and Redis, enter them in the app2.env file using the format of a connection string. If not please refer to this [Redis](https://redis.io/docs/getting-started/) / [PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
+1. Open the `app2.env` file in your project directory.
+2. If you have the connection details for PostgreSQL and Redis, enter them in the app2.env file using the format of a connection string. If not please refer to this [Redis](https://redis.io/docs/getting-started/) / [PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
 
 ```js
 APP2_PG=postgres://username:password@host:port/database
 APP2_REDIS=redis://username:password@host:port
 ```
 
-4. Start the server in the 'app2' directory using 'yarn start' command and verify that it's running properly. If thers's
+4. Start the server in the 'app2' directory using 'yarn start' command and verify that it's running properly.
 
 ## Building App
 
@@ -44,7 +41,7 @@ To build your first App2 application, follow these steps:
 
 1. After completing all settings, go to http://localhost:3000 in your web browser.
 2. To login, use the admin ID and password provided in the 'users.csv' file located in the common directory.
-3. Click the 'Create View' button to start building view
+3. Click the 'Create View' button to start building view.
    <br><img src="https://user-images.githubusercontent.com/126759216/223354667-3f2f9f05-c395-4173-ae39-a7dbd9821ddb.png" alt="createView" width="30%" height="10%"><br>
 
 ### Create view with AI
@@ -64,7 +61,7 @@ To build your first App2 application, follow these steps:
 2. Once the file is selected, a "Create New View" modal will appear. Fill in all required fields and click "OK".
 3. Select the columns you want to include, choose the key column, and edit fields as necessary.
 4. Automatically, data types for all fields will be assigned based on their values in Excel. If any editing is necessary, simply click on the "Edit" button for the desired field.
-   <br><img src="https://user-images.githubusercontent.com/126759216/223354726-5980afa5-9bc2-4160-b007-687c90ffd5f0.png" alt="ViewWithExcel" width="30%" height="10%"><br>
+   <br><img src="https://user-images.githubusercontent.com/126759216/223354726-5980afa5-9bc2-4160-b007-687c90ffd5f0.png" alt="ViewWithExcel" width="30%" height="20%"><br>
    <br><img src="https://user-images.githubusercontent.com/126759216/223354807-30fa0465-0eab-401c-9f0f-c86f66609945.png" alt="editField" width="30%" height="10%"><br>
 
 ### Create view from pasting table
@@ -106,7 +103,7 @@ You can manage your app through the container or run it by itself in the CLI wit
 3. Login to the app using your credentials.
 4. Click on "My Apps" in the menu bar, and you will be able to see the apps you have created.
 
-### App management by yarn start
+### App management with Yarn
 
 1. Start the app by running the command `yarn start <app name>` in app2 directory. If you don't specify the app name, the container app will be started instead.
 2. Open a web browser and navigate to http://localhost:3000.
@@ -124,11 +121,11 @@ You can manage your app through the container or run it by itself in the CLI wit
 3. Click on "OK" to create the app. Now you can run your newly created app, simply select the app name and click the "START APP" button; to open the app in a new window, click the "OPEN APP" button.
    <br><img src="https://user-images.githubusercontent.com/126759216/223355253-72745f44-7ec2-4036-8beb-c072dc2a8c31.png" alt="createApps" width="50%" height="20%"><br>
 
-## Configuration
+## App Configuration
 
-To set configutation of the app navigate to the "container" folder in the "apps" directory.
+To set configuration of the app navigate to the "container" folder in the "apps" directory.
 Open the config.ts file in VS Code and make any necessary changes to the settings.
-<br>[Click this for more information about app configuration ]().</br>
+<br>[For more information about app configuration, click on this]().</br>
 
 Alternatively, you can also make settings changes in the browser using the App Designer in the menu bar. Simply click on "config" to access the configuration settings.
 <br><img src="https://user-images.githubusercontent.com/126759216/223354548-10293ba1-e879-4e56-a676-4cb13402b376.png" alt="appDesigner" width="30%" height="10%"><br>
