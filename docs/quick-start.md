@@ -42,7 +42,7 @@ To build your first App2 application, follow these steps:
 1. After completing all settings, go to http://localhost:3000 in your web browser.
 2. To login, use the admin ID and password provided in the 'users.csv' file located in the common directory.
 3. Click the 'Create View' button to start building view.
-   <br><img src="https://user-images.githubusercontent.com/126759216/223354667-3f2f9f05-c395-4173-ae39-a7dbd9821ddb.png" alt="createView" width="30%" height="10%"><br>
+   <br><img src="./assets/createView.png" alt="createView" width="30%" height="10%"><br>
 
 ### Create view with AI
 
@@ -61,8 +61,8 @@ To build your first App2 application, follow these steps:
 2. Once the file is selected, a "Create New View" modal will appear. Fill in all required fields and click "OK".
 3. Select the columns you want to include, choose the key column, and edit fields as necessary.
 4. Automatically, data types for all fields will be assigned based on their values in Excel. If any editing is necessary, simply click on the "Edit" button for the desired field.
-   <br><img src="https://user-images.githubusercontent.com/126759216/223354726-5980afa5-9bc2-4160-b007-687c90ffd5f0.png" alt="ViewWithExcel" width="30%" height="20%"><br>
-   <br><img src="https://user-images.githubusercontent.com/126759216/223354807-30fa0465-0eab-401c-9f0f-c86f66609945.png" alt="editField" width="30%" height="10%"><br>
+   <br><img src="./assets/createViewWithExcel.png" alt="ViewWithExcel" width="40%" height="20%"><br>
+   <br><img src="./assets/editField.png" alt="editField" width="30%" height="10%"><br>
 
 ### Create view from pasting table
 
@@ -71,8 +71,8 @@ To build your first App2 application, follow these steps:
 3. A "Create New View" modal will appear. Fill in all required fields and click "OK".
 4. Select the columns you want to include, choose the key column, and edit fields as necessary.
 5. All fields will be assigned the data type of string. If any editing is necessary, simply click on the "Edit" button for the desired field.
-   <br><img src="https://user-images.githubusercontent.com/126759216/223354726-5980afa5-9bc2-4160-b007-687c90ffd5f0.png" alt="ViewWithExcel" width="30%" height="10%"><br>
-   <br><img src="https://user-images.githubusercontent.com/126759216/223354807-30fa0465-0eab-401c-9f0f-c86f66609945.png" alt="editField" width="30%" height="10%"><br>
+   <br><img src="./assets/createViewWithExcel.png" alt="ViewWithExcel" width="30%" height="20%"><br>
+   <br><img src="./assets/editField.png" alt="editField" width="30%" height="10%"><br>
 
 ### Create blank view
 
@@ -113,13 +113,11 @@ You can manage your app through the container or run it by itself in the CLI wit
 ## Create new app
 
 1. Navigate to the "My Apps" section in the menu bar and click the "ADD" button in the action bar..
-   <br><img src="https://user-images.githubusercontent.com/126759216/223355002-e79ef6c2-f13d-4028-aff7-e141e30ff088.png" alt="createApps" width="50%" height="20%"><br>
 
 2. Fill in the details about the app. Note that configurations can also be set in this part.  
-   <br><img src="https://user-images.githubusercontent.com/126759216/223355156-7ab562ba-e92c-4cc6-903e-fed533705a9b.png" alt="createAppsDetail" width="50%" height="20%"><br>
+   <br><img src="./assets/createAppsDetail.png" alt="createAppsDetail" width="50%" height="20%"><br>
 
 3. Click on "OK" to create the app. Now you can run your newly created app, simply select the app name and click the "START APP" button; to open the app in a new window, click the "OPEN APP" button.
-   <br><img src="https://user-images.githubusercontent.com/126759216/223355253-72745f44-7ec2-4036-8beb-c072dc2a8c31.png" alt="createApps" width="50%" height="20%"><br>
 
 ## App Configuration
 
@@ -128,4 +126,4 @@ Open the config.ts file in VS Code and make any necessary changes to the setting
 <br>[For more information about app configuration, click on this]().</br>
 
 Alternatively, you can also make settings changes in the browser using the App Designer in the menu bar. Simply click on "config" to access the configuration settings.
-<br><img src="https://user-images.githubusercontent.com/126759216/223354548-10293ba1-e879-4e56-a676-4cb13402b376.png" alt="appDesigner" width="30%" height="10%"><br>
+<br><img src="./assets/AppDesignerConfig.png" alt="appDesigner" width="30%" height="10%"><br>
