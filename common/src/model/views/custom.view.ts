@@ -1,5 +1,5 @@
 import { ViewModel } from '../';
-import { View } from '../model.decorator';
+import { View } from '../models/model.decorator';
 
 /** Custom view */
 @View({

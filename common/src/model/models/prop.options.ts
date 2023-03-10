@@ -1,5 +1,5 @@
-import { Dict, ViewService, Registry, OrderBy, RouteLocation, ActionOptions, Context, User } from '..';
-import { Model, ViewModel, FieldModel } from '.';
+import { Dict, ViewService, Registry, OrderBy, RouteLocation, ActionOptions, Context, User } from '../..';
+import { Model, ViewModel, FieldModel } from '..';
 
 export type PageCtx = Dict & { __search?: string; __sort?: OrderBy };
 

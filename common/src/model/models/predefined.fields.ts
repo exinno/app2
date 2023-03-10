@@ -1,4 +1,4 @@
-import { PropFieldModel, SelectFieldModel } from '.';
+import { PropFieldModel, SelectFieldModel } from '..';
 
 export const fieldSelectField: SelectFieldModel = {
   type: 'SelectField',

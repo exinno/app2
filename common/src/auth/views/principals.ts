@@ -1,5 +1,5 @@
 import { ListViewModel, TabViewModel, asArray } from '../..';
-import { Field, View } from '../../model/model.decorator';
+import { Field, View } from '../../model/models/model.decorator';
 import { Editable } from '../../core/views/base';
 
 @View({

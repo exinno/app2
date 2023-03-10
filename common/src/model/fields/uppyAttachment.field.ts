@@ -1,5 +1,5 @@
 import { FieldModel, View } from '..';
-import { Field } from '../model.decorator';
+import { Field } from '../models/model.decorator';
 
 const plugins = <const>['ScreenCapture', 'Webcam', 'Audio'];
 

@@ -13,9 +13,9 @@ import {
   isString,
   replaceObject,
   removeStartsWith
-} from '..';
+} from '../..';
 import { SubscriptionLike } from 'rxjs';
-import { ActionOptions, DataOptions, DataService, Dict, FindOptions, FindResult, SaveOptions } from './';
+import { ActionOptions, DataOptions, DataService, Dict, FindOptions, FindResult, SaveOptions } from '..';
 import _ from 'lodash';
 
 export class RestDataService extends DataService {

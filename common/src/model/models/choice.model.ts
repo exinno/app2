@@ -1,4 +1,4 @@
-import { Model } from '.';
+import { Model } from '..';
 import { Field, View } from './model.decorator';
 
 /**

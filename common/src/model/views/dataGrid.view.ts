@@ -1,6 +1,6 @@
 import { DataViewService, Dict } from '../..';
 import { dictPropField, fieldsSelectField, OpenViewModel, PropOptions, WebActionModel } from '..';
-import { Field, View } from '../model.decorator';
+import { Field, View } from '../models/model.decorator';
 import { DataViewModel } from './data.view';
 
 const selectionModes = ['Cell', 'Row'] as const;

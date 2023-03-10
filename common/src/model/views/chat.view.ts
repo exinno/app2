@@ -1,7 +1,7 @@
 import { PropOptions, ViewModel } from '../';
 import { GroupMember } from '../../auth';
 import { FindResult } from '../../data';
-import { View } from '../model.decorator';
+import { View } from '../models/model.decorator';
 
 export class ChatbotViewModel extends ViewModel {
   declare type?: 'ChatbotView';

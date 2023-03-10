@@ -1,5 +1,5 @@
-import { Dict } from '..';
-import { ModelType, PropOptions, ViewModel, ViewService } from '.';
+import { Dict } from '../..';
+import { ModelType, PropOptions, ViewModel, ViewService } from '..';
 import { Field, View } from './model.decorator';
 import { stringPropField, voidPropField } from './predefined.fields';
 import { isPlainObject } from 'lodash';

@@ -1,5 +1,5 @@
-import { Dict } from '..';
-import { FormViewModel, Model, ModelType } from '.';
+import { Dict } from '../..';
+import { FormViewModel, Model, ModelType } from '..';
 import { Field, View } from './model.decorator';
 
 const databaseClients = [

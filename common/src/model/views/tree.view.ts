@@ -1,5 +1,5 @@
 import { DataViewModel } from './data.view';
-import { Field, View } from '../model.decorator';
+import { Field, View } from '../models/model.decorator';
 
 /** Tree view model */
 @View({

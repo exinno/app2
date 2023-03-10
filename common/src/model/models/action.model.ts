@@ -1,6 +1,6 @@
 import { ViewService } from '..';
-import { DataViewModel, DataViewService, Model, PropOptions, ServerPropOptions, ViewModel } from '.';
-import { ChangeType, Permission, permissions } from '../data';
+import { DataViewModel, DataViewService, Model, PropOptions, ServerPropOptions, ViewModel } from '..';
+import { ChangeType, Permission, permissions } from '../../data';
 import { Field, View } from './model.decorator';
 
 const actionTypes = ['single', 'multiple', 'overall'] as const;

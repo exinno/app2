@@ -22,12 +22,15 @@ import {
   isSingleModelType,
   ViewService,
   simplifyDataToId,
-  isString
-} from '..';
+  isString,
+  DataOptions,
+  Dict,
+  FindOptions,
+  Permission
+} from '../..';
 import _, { isArray } from 'lodash';
-import { DataOptions, Dict, FindOptions, Permission } from '../data/data.interface';
-import { registry } from '../registry';
-import { AnyFieldModel, isLookupField, LookupFieldModel } from '.';
+import { registry } from '../../registry';
+import { AnyFieldModel, isLookupField, LookupFieldModel } from '..';
 
 export class ModelService {
   private appModel: AppModel;

@@ -12,7 +12,7 @@ import {
   ModelType,
   PropOptions,
   registry
-} from '..';
+} from '../..';
 import languageList from 'countries-list/dist/languages.json';
 import _ from 'lodash';
 

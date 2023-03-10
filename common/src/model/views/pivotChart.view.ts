@@ -1,4 +1,4 @@
-import { Field, View } from '../model.decorator';
+import { Field, View } from '../models/model.decorator';
 import { PivotViewModel } from './pivot.view';
 
 const draws = <const>[

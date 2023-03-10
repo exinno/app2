@@ -1,5 +1,5 @@
 import languages from 'countries-list/dist/languages.json';
-import { Model, PropOptions, StringFieldModel } from '.';
+import { Model, PropOptions, StringFieldModel } from '..';
 import { Field, View } from './model.decorator';
 
 export const languageCodes = Object.keys(languages);
