@@ -75,9 +75,9 @@ Click the 'Create View' button and select the method you want to build view.
 1. Click on "Design new view".
 2. In designer, users can choose to make view with pro-code or low-code.
 
-### Create view from Excel
+### Create view from Excel (+CSV)
 
-1. Click on "Create view from excel" and choose the file you want to import.
+1. Click on "Create view from excel" and choose Excel or CSV file you want to import.
 2. Once the file is selected, a "Create New View" modal will appear. Fill in all required fields and click "OK".
 3. Select the columns you want to include, choose the key column, and edit fields as necessary.
 4. Automatically, data types for all fields will be assigned based on their values in Excel. If any editing is necessary, simply click on the "Edit" button for the desired field.
