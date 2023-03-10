@@ -1,5 +1,5 @@
 import { fieldsSelectField, PropOptions, WebActionModel } from '..';
-import { Field, View } from '../model.decorator';
+import { Field, View } from '../models/model.decorator';
 import { DataViewModel, DataViewService } from './data.view';
 
 export const formModes = ['edit', 'add', 'view'] as const;

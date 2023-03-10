@@ -1,8 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-// reflect-metadata가 ej2-vue와 충돌을 일으켜서 common에서는 dependency를 제거함
-import _ from 'lodash';
-import { AnyFieldModel, AnyViewModel } from '.';
+import { AnyFieldModel, AnyViewModel } from '..';
 
 export function View(options: AnyViewModel): ClassDecorator {
   return (target) => {

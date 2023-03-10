@@ -1,4 +1,4 @@
-import { DatasourceModel, isString, User, DataViewModel } from '..';
+import { DatasourceModel, isString, User, DataViewModel } from '../..';
 import { SubscriptionLike } from 'rxjs';
 import { Knex } from 'knex';
 

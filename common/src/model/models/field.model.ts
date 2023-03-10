@@ -1,4 +1,4 @@
-import { AggFunc, Dict, Encryption, JoinType, Value } from '..';
+import { AggFunc, Dict, Encryption, JoinType, Value } from '../..';
 import {
   AnyFieldModel,
   Model,
@@ -7,7 +7,7 @@ import {
   DataViewModel,
   LookupFieldModel,
   ServerPropOptions
-} from '.';
+} from '..';
 import { Field, View } from './model.decorator';
 import { webActionsSelectField } from './predefined.fields';
 

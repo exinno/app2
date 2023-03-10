@@ -1,4 +1,4 @@
-import { View, Field } from '../../model/model.decorator';
+import { View, Field } from '../../model/models/model.decorator';
 import { User } from '../..';
 
 @View({

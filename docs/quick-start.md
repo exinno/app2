@@ -17,23 +17,23 @@ Before you start using App2, make sure you have the following pre-requirements:
 To install App2, follow these steps:
 
 1. Clone the App2 repository from GitHub: `git clone https://github.com/app2/app2.git`.
-2. Navigate to the project directory: `cd app2`.
+2. Navigate to the 'app2' directory: `cd app2`.
 3. Install the required dependencies: `yarn install`.
 4. Build the project: `yarn build`.
 
 ## Database Configuration
 
-Once you have installed App2, you need to configure database before you can start building your app.
+Once you have installed App2, you need to configure database before you can start using app.
 
-1. Open the `app2.env` file in your 'app2' directory.
-2. If you have the connection details for PostgreSQL and Redis, enter them in the app2.env file using the format of a connection string. If not please refer to this [Redis](https://redis.io/docs/getting-started/) / [PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
+1. Open the [app2.env](../app2.env) file in your 'app2' directory.
+2. If you have the connection details for PostgreSQL and Redis, enter them in the file using the format of a connection string. If not please refer to this [Redis](https://redis.io/docs/getting-started/) / [PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
 
 ```js
 APP2_PG=postgres://username:password@host:port/database
 APP2_REDIS=redis://username:password@host:port
 ```
 
-4. Start the server in the 'app2' directory using `yarn start` command this will run container server.
+3. To run the server, start the server in the 'app2' directory using the `yarn start` command.
 
 ## Create new app
 
@@ -43,8 +43,13 @@ APP2_REDIS=redis://username:password@host:port
 
 3. Navigate to the "My Apps" section in the menu bar and click the "ADD" button in the action bar.
 
-4. Fill in the details about the app. Configurations can be set in this part.  
+4. Fill in the details about the app, including any configurations that need to be set for the app.
+   <br>[For more information about app configuration, click on this]().</br>
    <br><img src="./assets/createAppsDetail.png" alt="createAppsDetail" width="50%" height="20%"><br>
+
+- Configuration can be edited in 'App Designer' in the menu bar. Simply click on "config" to access the configuration settings.
+  <br><img src="./assets/AppDesignerConfig.png" alt="appDesigner" width="30%" height="10%"><br>
+  Alternatively users can modify the 'config.ts' file located in the respective 'app' directory.
 
 5. Click on "OK" to create the app.
 
@@ -52,8 +57,9 @@ APP2_REDIS=redis://username:password@host:port
 
 After creating a new app, you can start the new app in one of two ways:
 
-- Navigate to the server directory and run `yarn start <app name>` to start the new app.
-- Start the container server by running `yarn start`, then go to 'My apps', select the app you created, and click on "START APP".
+- Navigate to the 'server' directory and run `yarn start <app name>` to start the new app.
+
+- Start the container in 'server' directory, run `yarn start`, then navigate to "My apps" in menu bar, select the created app, and click "START APP".
 
 Click the 'Create View' button and select the method you want to build view.
 <br><img src="./assets/createView.png" alt="createView" width="30%" height="10%"><br>
@@ -69,9 +75,9 @@ Click the 'Create View' button and select the method you want to build view.
 1. Click on "Design new view".
 2. In designer, users can choose to make view with pro-code or low-code.
 
-### Create view from Excel
+### Create view from Excel (+CSV)
 
-1. Click on "Create view from excel" and choose the file you want to import.
+1. Click on "Create view from excel" and choose Excel or CSV file you want to import.
 2. Once the file is selected, a "Create New View" modal will appear. Fill in all required fields and click "OK".
 3. Select the columns you want to include, choose the key column, and edit fields as necessary.
 4. Automatically, data types for all fields will be assigned based on their values in Excel. If any editing is necessary, simply click on the "Edit" button for the desired field.
@@ -104,12 +110,3 @@ Click the 'Create View' button and select the method you want to build view.
 <br>Created apps are placed in the ['apps'](../apps/) directory.</br>
 
 Congratulations, you have now created your first App2 application!
-
-## App Configuration
-
-To set configuration of the app navigate to the "container" folder in the "apps" directory.
-Open the config.ts file in VS Code and make any necessary changes to the settings.
-<br>[For more information about app configuration, click on this]().</br>
-
-Alternatively, you can also make settings changes in the browser using the App Designer in the menu bar. Simply click on "config" to access the configuration settings.
-<br><img src="./assets/AppDesignerConfig.png" alt="appDesigner" width="30%" height="10%"><br>

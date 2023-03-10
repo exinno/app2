@@ -1,4 +1,4 @@
-import { View } from '../model.decorator';
+import { View } from '../models/model.decorator';
 import { ViewModel, PropOptions } from '..';
 
 /** Markdown view model */

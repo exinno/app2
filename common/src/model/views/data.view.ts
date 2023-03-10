@@ -15,7 +15,7 @@ import {
   voidPropField,
   ViewProps
 } from '..';
-import { Field, View } from '../model.decorator';
+import { Field, View } from '../models/model.decorator';
 
 export const keyGenerators = ['random'] as const;
 export type KeyGenerator = typeof keyGenerators[number];

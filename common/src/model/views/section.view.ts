@@ -1,5 +1,5 @@
 import { ContainerViewModel } from './container.view';
-import { View } from '../model.decorator';
+import { View } from '../models/model.decorator';
 
 /** Section view model */
 @View({

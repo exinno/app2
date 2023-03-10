@@ -1,5 +1,5 @@
 import { AnyViewModel, PropOptions, ViewService } from '..';
-import { Field, View } from '../model.decorator';
+import { Field, View } from '../models/model.decorator';
 import { ViewModel, WebActionModel } from '..';
 
 /** Container view */

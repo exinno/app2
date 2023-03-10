@@ -14,7 +14,7 @@ import {
   SqlOptions,
   ViewModel,
   SubscribeOptions
-} from '..';
+} from '../..';
 import { SubscriptionLike } from 'rxjs';
 
 export abstract class DataService {

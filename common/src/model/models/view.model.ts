@@ -1,4 +1,4 @@
-import { Dict, AnyFieldModel, fieldsSelectField, PageCtx, registry, ScreenSize, Permission } from '..';
+import { Dict, AnyFieldModel, fieldsSelectField, PageCtx, registry, ScreenSize, Permission } from '../..';
 import {
   AnyViewModel,
   dictPropField,
@@ -10,7 +10,7 @@ import {
   webActionsSelectField,
   stringPropField,
   ActionModel
-} from '.';
+} from '..';
 import { Field, View } from './model.decorator';
 
 export const hintModes = ['tooltip', 'bottom', 'button'] as const;

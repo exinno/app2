@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import { httpClient, jsSerializer, randomString, registry } from '..';
+import { httpClient, jsSerializer, randomString, registry } from '../..';
 
 export type NotifyType = 'notification' | 'notify' | 'memberChanged' | 'dataChanged' | string;
 

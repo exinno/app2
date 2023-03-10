@@ -1,5 +1,5 @@
 import { ViewModel, ViewService } from '..';
-import { View } from '../model.decorator';
+import { View } from '../models/model.decorator';
 
 /** Query builder view model */
 @View({

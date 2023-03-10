@@ -1,4 +1,4 @@
-import { Model, PropOptions } from '.';
+import { Model, PropOptions } from '..';
 import { Field, View } from './model.decorator';
 
 /**

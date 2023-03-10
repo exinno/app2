@@ -1,5 +1,5 @@
 import { FieldModel } from '..';
-import { View } from '../model.decorator';
+import { View } from '../models/model.decorator';
 
 /** Custom field */
 @View({

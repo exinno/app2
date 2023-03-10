@@ -1,12 +1,12 @@
 {
   "name": "app2-parent",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "author": "ExInno Co.,Ltd. (https://www.exinno.net)",
   "license": "MIT",
   "scripts": {
     "install": "yarn download & yarn build-common & yarn build-container",
-    "download": "download --extract https://github.com/exinno/app2/releases/download/v0.0.1/app2-server-v0.0.1.zip -o bin",
+    "download": "download --extract https://github.com/exinno/app2/releases/download/v%npm_package_version%/app2-server-v%npm_package_version%.zip -o bin",
     "build-common": "cd common && yarn install && yarn build",
     "clean-common": "cd common && yarn clean",
     "build-container": "cd apps/container && yarn install && yarn build",

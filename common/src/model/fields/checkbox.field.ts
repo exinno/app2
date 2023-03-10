@@ -1,5 +1,5 @@
 import { FieldModel, PropOptions, View } from '..';
-import { Field } from '../model.decorator';
+import { Field } from '../models/model.decorator';
 
 /** Checkbox field */
 @View({
