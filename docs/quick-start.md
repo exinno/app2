@@ -33,7 +33,7 @@ APP2_PG=postgres://username:password@host:port/database
 APP2_REDIS=redis://username:password@host:port
 ```
 
-4. Start the server in the 'app2' directory using `yarn start` command this will run container server.
+3. To run the server, start the server in the 'app2' directory using the `yarn start` command.
 
 ## Create new app
 
@@ -43,13 +43,13 @@ APP2_REDIS=redis://username:password@host:port
 
 3. Navigate to the "My Apps" section in the menu bar and click the "ADD" button in the action bar.
 
-4. Fill in the details about the app. Configurations can be set in this part.
+4. Fill in the details about the app, including any configurations that need to be set for the app.
    <br>[For more information about app configuration, click on this]().</br>
    <br><img src="./assets/createAppsDetail.png" alt="createAppsDetail" width="50%" height="20%"><br>
 
 - Configuration can be edited in 'App Designer' in the menu bar. Simply click on "config" to access the configuration settings.
-  <br><img src="./assets/AppDesignerConfig.png" alt="appDesigner" width="30%" height="10%"><br>Alternatively
-  users can edit configuration by editing 'config.ts' in respective 'app' directory.
+  <br><img src="./assets/AppDesignerConfig.png" alt="appDesigner" width="30%" height="10%"><br>
+  Alternatively users can modify the 'config.ts' file located in the respective 'app' directory.
 
 5. Click on "OK" to create the app.
 
