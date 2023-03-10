@@ -25,7 +25,7 @@ To install App2, follow these steps:
 
 Once you have installed App2, you need to configure database before you can start building your app.
 
-1. Open the `app2.env` file in your project directory.
+1. Open the `app2.env` file in your 'app2' directory.
 2. If you have the connection details for PostgreSQL and Redis, enter them in the app2.env file using the format of a connection string. If not please refer to this [Redis](https://redis.io/docs/getting-started/) / [PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
 
 ```js
@@ -33,16 +33,30 @@ APP2_PG=postgres://username:password@host:port/database
 APP2_REDIS=redis://username:password@host:port
 ```
 
-4. Start the server in the 'app2' directory using 'yarn start' command and verify that it's running properly.
+4. Start the server in the 'app2' directory using `yarn start` command this will run container server.
+
+## Create new app
+
+1. We can use container app to create new app. While app2 container server is running, go to http://localhost:3000 in your web browser.
+
+2. To login, use the admin ID and password provided in the ['users.csv'](../common/csv/users.csv).
+
+3. Navigate to the "My Apps" section in the menu bar and click the "ADD" button in the action bar.
+
+4. Fill in the details about the app. Configurations can be set in this part.  
+   <br><img src="./assets/createAppsDetail.png" alt="createAppsDetail" width="50%" height="20%"><br>
+
+5. Click on "OK" to create the app.
 
 ## Building App
 
-To build your first App2 application, follow these steps:
+After creating a new app, you can start the new app in one of two ways:
 
-1. After completing all settings, go to http://localhost:3000 in your web browser.
-2. To login, use the admin ID and password provided in the 'users.csv' file located in the common directory.
-3. Click the 'Create View' button to start building view.
-   <br><img src="./assets/createView.png" alt="createView" width="30%" height="10%"><br>
+- Navigate to the server directory and run `yarn start <app name>` to start the new app.
+- Start the container server by running `yarn start`, then go to 'My apps', select the app you created, and click on "START APP".
+
+Click the 'Create View' button and select the method you want to build view.
+<br><img src="./assets/createView.png" alt="createView" width="30%" height="10%"><br>
 
 ### Create view with AI
 
@@ -50,7 +64,7 @@ To build your first App2 application, follow these steps:
 2. Type in a specific description of what you want your application to do using natural language.
 3. Click on "Create" to generate an AI-powered view.
 
-### Create view with Designer
+### Create view with Designer (WIP)
 
 1. Click on "Design new view".
 2. In designer, users can choose to make view with pro-code or low-code.
@@ -76,10 +90,9 @@ To build your first App2 application, follow these steps:
 
 ### Create blank view
 
-1. Click on "Create blank view" and fill in all required fields and click "OK".
-2. New blank view will be created.
-3. Use the visual designer on ellipsis to customize your new view according to your preferences.
-4. Click the "ADD" button to input your data once you have finished designing your view.
+1. Click on "Create blank view" and fill in all required fields and click "OK". Then new blank view will be created.
+2. Use the visual designer on ellipsis(⋮) to customize your new view according to your preferences.
+3. Click the "ADD" button to input your data once you have finished designing your view.
 
 ### Add and edit fields
 
@@ -88,36 +101,9 @@ To build your first App2 application, follow these steps:
 3. Select the type of field you want to add.
 4. Customize the field properties as necessary.
 
-<br>Created apps are placed in the apps directory.</br>
+<br>Created apps are placed in the ['apps'](../apps/) directory.</br>
 
 Congratulations, you have now created your first App2 application!
-
-## Managing Apps
-
-You can manage your app through the container or run it by itself in the CLI with the command yarn start appName.
-
-### App management through container
-
-1. Start the container app by running the command yarn start in the app2 directory.
-2. Open a web browser and navigate to http://localhost:3000.
-3. Login to the app using your credentials.
-4. Click on "My Apps" in the menu bar, and you will be able to see the apps you have created.
-
-### App management with Yarn
-
-1. Start the app by running the command `yarn start <app name>` in app2 directory. If you don't specify the app name, the container app will be started instead.
-2. Open a web browser and navigate to http://localhost:3000.
-3. Login to the app using your credentials.
-4. You will be able to see that you have successfully logged in to the app you created.
-
-## Create new app
-
-1. Navigate to the "My Apps" section in the menu bar and click the "ADD" button in the action bar..
-
-2. Fill in the details about the app. Note that configurations can also be set in this part.  
-   <br><img src="./assets/createAppsDetail.png" alt="createAppsDetail" width="50%" height="20%"><br>
-
-3. Click on "OK" to create the app. Now you can run your newly created app, simply select the app name and click the "START APP" button; to open the app in a new window, click the "OPEN APP" button.
 
 ## App Configuration
 
