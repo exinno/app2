@@ -131,5 +131,3 @@ Click the 'Create View' button and select the method you want to build view.
 <br>Created apps are placed in the ['apps'](../apps/) directory.</br>
 
 Congratulations, you have now created your first App2 application!
-
-Click on [next steps]() to what you can do with the app you built
