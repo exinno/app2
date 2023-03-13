@@ -6,7 +6,7 @@ Although App2 plans to support SaaS, Docker, and multi-cloud deployment in the f
 
 Before you start using App2, make sure you have the following pre-requirements:
 
-- Operating System: Windows 10
+- Operating System: Currently only supports Windows 10 and Windows 11
 - [Node.js](https://nodejs.org/en/) (v18 or higher)
 - [NPM](https://www.npmjs.com/package/npm) or [Yarn](https://yarnpkg.com/getting-started/install)
 - [PostgreSQL](https://www.postgresql.org/download/) (v9.6 or higher)
@@ -25,12 +25,19 @@ To install App2, follow these steps:
 
 Once you have installed App2, you need to configure database before you can start using app.
 
-1. Open the [app2.env](../app2.env) file in your 'app2' directory.
-2. If you have the connection details for PostgreSQL and Redis, enter them in the file using the format of a connection string. If not please refer to this [Redis](https://redis.io/docs/getting-started/) / [PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
+1. Open the [app2.env](../app2.env) file in your 'app2' directory. This file contains environment variables that are used to connect to your database.
+2. If you have the connection details for PostgreSQL and Redis, enter them in the file using the format of a connection string. If you don't have the connection details, you can follow the links below for detailed instructions on how to set up and configure PostgreSQL and Redis:
+
+- [Redis Documentation: Getting Started with Redis](https://redis.io/docs/getting-started/)
+- [PostgreSQL Tutorial: Getting Started with PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
+
+Make sure to replace the placeholders in the connection string with your actual database credentials:
 
 ```js
 APP2_PG=postgres://username:password@host:port/database
 APP2_REDIS=redis://username:password@host:port
+
+These environment variables are used to specify respective connection details.
 ```
 
 3. To run the server, start the server in the 'app2' directory using the `yarn start` command.
@@ -70,10 +77,14 @@ Click the 'Create View' button and select the method you want to build view.
 2. Type in a specific description of what you want your application to do using natural language.
 3. Click on "Create" to generate an AI-powered view.
 
+[Learn more about AI]()
+
 ### Create view with Designer (WIP)
 
 1. Click on "Design new view".
-2. In designer, users can choose to make view with pro-code or low-code.
+2. In designer, users can choose to make view with [pro-code](https://www.linkedin.com/pulse/low-code-vs-no-code-pro-code-whats-difference-dominik-keller/) or [low-code](https://www.linkedin.com/pulse/low-code-vs-no-code-pro-code-whats-difference-dominik-keller/).
+
+[Learn more about designing view]()
 
 ### Create view from Excel (+CSV)
 
@@ -83,6 +94,8 @@ Click the 'Create View' button and select the method you want to build view.
 4. Automatically, data types for all fields will be assigned based on their values in Excel. If any editing is necessary, simply click on the "Edit" button for the desired field.
    <br><img src="./assets/createViewWithExcel.png" alt="ViewWithExcel" width="40%" height="20%"><br>
    <br><img src="./assets/editField.png" alt="editField" width="30%" height="10%"><br>
+
+[Learn more about Excel importer]()
 
 ### Create view from pasting table
 
@@ -94,11 +107,15 @@ Click the 'Create View' button and select the method you want to build view.
    <br><img src="./assets/createViewWithExcel.png" alt="ViewWithExcel" width="30%" height="20%"><br>
    <br><img src="./assets/editField.png" alt="editField" width="30%" height="10%"><br>
 
+[Learn more about paste importer]()
+
 ### Create blank view
 
 1. Click on "Create blank view" and fill in all required fields and click "OK". Then new blank view will be created.
 2. Use the visual designer on ellipsis(⋮) to customize your new view according to your preferences.
 3. Click the "ADD" button to input your data once you have finished designing your view.
+
+[Learn more about blank view]()
 
 ### Add and edit fields
 
@@ -106,6 +123,8 @@ Click the 'Create View' button and select the method you want to build view.
 2. Click on the "Add Field" button.
 3. Select the type of field you want to add.
 4. Customize the field properties as necessary.
+
+[Learn more about fields edit]()
 
 <br>Created apps are placed in the ['apps'](../apps/) directory.</br>
 
