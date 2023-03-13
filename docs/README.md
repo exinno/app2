@@ -10,17 +10,13 @@
 
 - Pre-requirements
 - Installation
-- Database Configuration
-- Building App
+- Database configuration
+- Create a new app
+- Building a app
   - Create view with AI
   - Create view from Excel
   - Create blank view
   - Add and edit fields
-- Managing Apps
-  - App management through container
-  - App management by yarn start
-- Create new app
-- App Configuration
 
 ## [Overview](overview.md)
 
@@ -36,7 +32,7 @@
   - Form
   - Pivot
   - Actions
-- Building App
+- Building app
   - Create view with AI
   - Create view from Data
   - Customize View
