@@ -42,7 +42,7 @@ APP2_REDIS=redis://username:password@host:port
 These environment variables are used to specify respective connection details.
 ```
 
-3. To launch the server, users can either use the yarn start command in the 'app2' directory, or execute the app2-server.exe file located in 'app2/bin'.
+3. To launch the server, users can either use the `yarn start` command in the 'app2' directory, or execute the app2-server.exe file located in 'app2/bin'.
 
 ## Create a new app
 
