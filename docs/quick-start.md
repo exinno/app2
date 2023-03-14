@@ -26,7 +26,9 @@ To install App2, follow these steps:
 Once you have installed App2, you need to configure database before you can start using app.
 
 1. Open the [app2.env](../app2.env) file in your 'app2' directory. This file contains environment variables that are used to connect to your database.
-2. If you have the connection details for PostgreSQL and Redis, enter them in the file using the format of a connection string. If you don't have the connection details, you can follow the links below for detailed instructions on how to set up and configure PostgreSQL and Redis:
+2. Use the connection string format to input the connection details for both PostgreSQL and Redis.
+
+   If you don't have the connection details, you can follow the links below for detailed instructions on how to set up and configure PostgreSQL and Redis:
 
 - [Redis Documentation: Getting Started with Redis](https://redis.io/docs/getting-started/)
 - [PostgreSQL Tutorial: Getting Started with PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
@@ -121,10 +123,8 @@ Click the 'Create View' button and select the method you want to build view.
 
 ### Add and edit fields
 
-1. Open your view in the visual designer.
-2. Click on the "Add Field" button.
-3. Select the type of field you want to add.
-4. Customize the field properties as necessary.
+1. Open your view in the visual designer and click on the "Add Field" button.
+2. Select the type of field you want to add and customize its properties as necessary.
 
 [Learn more about fields edit]()
 
