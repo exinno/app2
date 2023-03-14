@@ -6,7 +6,7 @@ Although App2 plans to support SaaS, Docker, and multi-cloud deployment in the f
 
 Before you start using App2, make sure you have the following pre-requirements:
 
-- Operating System: Currently only supports Windows 10 and Windows 11
+- Operating System: Currently only supports Windows 7 or higher
 - [Node.js](https://nodejs.org/en/) (v18 or higher)
 - [NPM](https://www.npmjs.com/package/npm) or [Yarn](https://yarnpkg.com/getting-started/install)
 - [PostgreSQL](https://www.postgresql.org/download/) (v9.6 or higher)
